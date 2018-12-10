@@ -21,7 +21,6 @@ html {
 }
 
 .navlink:hover {
-  color: #f2f2f2;
   background-image: linear-gradient(to bottom, #424e31, #2f3822);
 }
 
