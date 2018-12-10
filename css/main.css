@@ -1,6 +1,6 @@
 html {
-  background-color: #ffffff;
-  background-image: linear-gradient(to bottom, #ffffff, #e1e1e1);
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #fff, #e1e1e1);
 }
 
 .skip-links a {
@@ -18,6 +18,10 @@ html {
 
 .navlink {
   color: #fff;
+}
+
+.navlink:hover {
+  background-image: linear-gradient(to bottom, #424e31, #2f3822);
 }
 
 .navbutton {
@@ -49,5 +53,5 @@ html {
 }
 
 .whitefont {
-  color: #ffffff;
+  color: #fff;
 }
