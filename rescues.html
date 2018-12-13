@@ -21,40 +21,42 @@
   </ul>
 
   <header role="banner" id="header" tabindex="0">
-    <div class="grid">
-      <div class="unit xs-1 relative">
-        <div class="embed embed-16by9">
-          <img class="embed-item" src="images/banner.jpg" alt="bannerimg">
-        </div>
-        <div class="absolute pin-right-bottom island-1-2">
-          <h1 class="tena text-center push-0 whitefont">Your Information</h1>
+    <div class="max-length">
+      <div class="grid">
+        <div class="unit xs-1 relative">
+          <div class="embed embed-16by9">
+            <img class="embed-item" src="images/banner.jpg" alt="bannerimg">
+          </div>
+          <div class="absolute pin-right-bottom island-1-2">
+            <h1 class="tena text-center push-0 whitefont">Your Information</h1>
+          </div>
         </div>
       </div>
+      <nav class="nav gutter-1-4" role="navigation" id="nav" tabindex="0">
+        <div class="grid list-group-inline text-center wrapper">
+          <div class="unit xs-1-4 island-1-4 navbutton">
+            <ul class="list-group push-0">
+              <li class="navlink"><a href="#" class="navlink link-box mega">About</a></li>
+            </ul>
+          </div>
+          <div class="unit xs-1-4 island-1-4 navbutton">
+            <ul class="list-group push-0">
+              <li class="navlink"><a href="#" class="navlink link-box mega">News</a></li>
+            </ul>
+          </div>
+          <div class="unit xs-1-4 island-1-4 navbutton">
+            <ul class="list-group push-0">
+              <li class="navlink"><a href="adopt.html" class="navlink link-box mega">Sponsor</a></li>
+            </ul>
+          </div>
+          <div class="unit xs-1-4 island-1-4 navbutton">
+            <ul class="list-group push-0">
+              <li class="navlink"><a href="#" class="navlink link-box mega">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
-    <nav class="nav gutter-1-4" role="navigation" id="nav" tabindex="0">
-      <div class="grid list-group-inline text-center wrapper">
-        <div class="unit xs-1-4 island-1-4 navbutton">
-          <ul class="list-group push-0">
-            <li class="navlink"><a href="#" class="navlink link-box mega">About</a></li>
-          </ul>
-        </div>
-        <div class="unit xs-1-4 island-1-4 navbutton">
-          <ul class="list-group push-0">
-            <li class="navlink"><a href="#" class="navlink link-box mega">News</a></li>
-          </ul>
-        </div>
-        <div class="unit xs-1-4 island-1-4 navbutton">
-          <ul class="list-group push-0">
-            <li class="navlink"><a href="adopt.html" class="navlink link-box mega">Sponsor</a></li>
-          </ul>
-        </div>
-        <div class="unit xs-1-4 island-1-4 navbutton">
-          <ul class="list-group push-0">
-            <li class="navlink"><a href="#" class="navlink link-box mega">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
   </header>
 
   <main class="max-length" role="main" id="main" tabindex="0">
@@ -98,20 +100,20 @@
         </div>
         <div class="unit xs-1-2 island-1-2">
           <label for="province">Province</label>
-          <select id="province" required>
-            <option id="province">Alberta</option>
-            <option id="province">British Columbia</option>
-            <option id="province">Manitoba</option>
-            <option id="province">New Brunswick</option>
-            <option id="province">Newfoundland and Labrador</option>
-            <option id="province">Northwest Territories</option>
-            <option id="province">Nova Scotia</option>
-            <option id="province">Nunavut</option>
-            <option id="province" selected>Ontario</option>
-            <option id="province">Prince Edward Island</option>
-            <option id="province">Quebec</option>
-            <option id="province">Saskatchewan</option>
-            <option id="province">Yukon</option>
+          <select id="province">
+            <option id="province1">Alberta</option>
+            <option id="province2">British Columbia</option>
+            <option id="province3">Manitoba</option>
+            <option id="province4">New Brunswick</option>
+            <option id="province5">Newfoundland and Labrador</option>
+            <option id="province6">Northwest Territories</option>
+            <option id="province7">Nova Scotia</option>
+            <option id="province8">Nunavut</option>
+            <option id="province9" selected>Ontario</option>
+            <option id="province10">Prince Edward Island</option>
+            <option id="province11">Quebec</option>
+            <option id="province12">Saskatchewan</option>
+            <option id="province13">Yukon</option>
           </select>
         </div>
         <div class="unit xs-1-2 island-1-2">
@@ -121,18 +123,18 @@
         <div class="unit xs-1-2 island-1-2">
           <label for="country">Country</label>
           <select id="country" required>
-            <option id="country">Canada</option>
-            <option id="country">UK</option>
-            <option id="country">Canada</option>
+            <option id="country1">Canada</option>
+            <option id="county2">UK</option>
+            <option id="country3">Canada</option>
           </select>
         </div>
         <div class="unit xs-1-2 island-1-2">
-          <label for="phone" type="tel">Phone Number</label>
-          <input id="phone" required>
+          <label for="phone">Phone Number</label>
+          <input id="phone" type="tel" required>
         </div>
         <div class="unit xs-1-2 island-1-2">
-          <label for="email" type="email">Email</label>
-          <input id="email" required>
+          <label for="email">Email</label>
+          <input id="email" type="email" required>
         </div>
         <div class="text-center">
           <button class="navbutton island-1-2" type="submit">Submit</button>
